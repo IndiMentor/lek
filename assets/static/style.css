@@ -1,0 +1,14 @@
+.custom-restricted-width {
+	    /* To limit the menu width to the content of the menu: */
+	    display: inline-block;
+	    background: #0f0;
+}
+#layout {
+	height:100%;
+}
+#main {
+	display:inline-block;
+	background:#ff0000;
+
+}
+

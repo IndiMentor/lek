@@ -1,0 +1,28 @@
+<!doctype html>
+<meta charset="utf-8">
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+<link rel="stylesheet" href="{{ '/static/style.css'|url }}">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}Welcome{% endblock %} — Boca Girls</title>
+<body>
+<div id="layout">
+    <div class="pure-menu custom-restricted-width">
+    <a href="#menu" id="menuLink" class="menu-link"> <!-- Hamburger icon --> <span></span> </a>
+			<span class="pure-menu-heading">Pure Menu Heading{% block menuhead %}{% endblock %}</span>
+			<ul class="pure-menu-list">
+				<li class="pure-menu-item">Home</li>
+				<li class="pure-menu-item">Models</li>
+				<li class="pure-menu-item">About Us</li>
+				<li class="pure-menu-item">Contact</li>
+				<li class="pure-menu-item">Employment</li>
+			</ul>
+    </div>
+
+  <div id="main">
+	  <h1>Boca Girls</h1>
+  	<div>
+    		{% block body %}{% endblock %}
+  	</div>
+  </div>
+</div>
+</body>
