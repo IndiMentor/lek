@@ -1,28 +1,63 @@
-<!doctype html>
-<meta charset="utf-8">
-<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
-<link rel="stylesheet" href="{{ '/static/style.css'|url }}">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{% block title %}Welcome{% endblock %} — Boca Girls</title>
-<body>
-<div id="layout">
-    <div class="pure-menu custom-restricted-width">
-        <a href="#menu" id="menuLink" class="menu-link"> <!-- Hamburger icon --> <span></span> </a>
-        <span class="pure-menu-heading">Site Name{% block menuhead %}{% endblock %}</span>
-        <ul class="pure-menu-list">
-            <li class="pure-menu-item">Home</li>
-            <li class="pure-menu-item">Models</li>
-            <li class="pure-menu-item">About Us</li>
-            <li class="pure-menu-item">Contact</li>
-            <li class="pure-menu-item">Employment</li>
-        </ul>
-    </div>
 
-  <div id="main">
-    <h1>Boca Girls</h1>
-    <div>
-        {% block body %}{% endblock %}
-    </div>
-    </div>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Your Page Title</title>
+
+		<link href="http://mincss.com/entireframework.min.css" rel="stylesheet" type="text/css">
+
+		<style>
+			.hero {
+				background: #eee;
+				padding: 20px;
+				border-radius: 10px;
+				margin-top: 1em;
+			}
+
+			.hero h1 {
+				margin-top: 0;
+				margin-bottom: 0.3em;
+			}
+
+			.c4 {
+				padding: 10px;
+				box-sizing: border-box;
+			}
+
+			.c4 h3 {
+				margin-top: 0;
+			}
+
+			.c4 a {
+				margin-top: 10px;
+				display: inline-block;
+			}
+		</style>
+	</head>
+	<body>
+		<nav class="nav" tabindex="-1" onclick="this.focus()">
+			<div class="container">
+				<a class="pagename current" href="#">Your Site Name</a>
+				<a href="#">One</a>
+				<a href="#">Two</a>
+				<a href="#">Three</a>
+			</div>
+		</nav>
+		<button class="btn-close btn btn-sm">×</button>
+		<div class="container">
+			<div class="hero">
+				<h1>Example</h1>
+				<p>You can view the source of this page and copy it to get a quick start on a project with Min!</p>
+				<p>You can view the source of this page and copy it to get a quick start on a project with Min!</p>
+				<a class="btn btn-b" href="http://owenversteeg.com">Go places!</a>
+			</div>
+			<div class="row">
+    <div class="col c4"><h3>Yay headings!</h3>You can view the source of this page and copy it to get a quick start on a project with Min!<br><a href="http://owenversteeg.com" class="btn btn-sm btn-a">Do stuff!</a></div>
+        <div class="col c4"><h3>Yay headings!</h3>You can view the source of this page and copy it to get a quick start on a project with Min!<br><a href="http://owenversteeg.com" class="btn btn-sm btn-b">Do stuff!</a></div>    <div class="col c4"><h3>Yay headings!</h3>You can view the source of this page and copy it to get a quick start on a project with Min!<br><a href="http://owenversteeg.com" class="btn btn-sm btn-c">Do stuff!</a></div>
 </div>
-</body>
+		</div>
+	</body>
+</html>
