@@ -2,6 +2,13 @@ html {
     background: #000;
     color: #f00;
 }
+
+#header {
+    display: block;
+}
+#main {
+    display:block;
+}
 /*Strip the ul of padding and list styling*/
 nav ul {
 	list-style-type:none;
