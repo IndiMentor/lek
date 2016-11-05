@@ -1,8 +1,10 @@
+_model: bubba,ini
+---
 title: Welcome to Boca Girls!
 ---
 body:
 
 This is a basic demo website that shows how to use Lektor for a basic
 website with some pages.
-
+---
 brand: Boca Girls
