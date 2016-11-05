@@ -26,3 +26,6 @@ body {
 
 .row-odd { background-color: #0088bb;}
 .row-even {background-color: #00aaee;}
+.modellist {
+    text-align: center;
+}
