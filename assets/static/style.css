@@ -1,5 +1,5 @@
 /*Strip the ul of padding and list styling*/
-ul {
+nav ul {
 	list-style-type:none;
 	margin:0;
 	padding:0;
@@ -7,14 +7,14 @@ ul {
 }
 
 /*Create a horizontal list with spacing*/
-li {
+nav li {
 	display:inline-block;
 	float: left;
 	margin-right: 1px;
 }
 
 /*Style for menu links*/
-li a {
+nav li a {
 	display:block;
 	min-width:140px;
 	height: 50px;
@@ -27,12 +27,12 @@ li a {
 }
 
 /*Hover state for top level links*/
-li:hover a {
+nav li:hover a {
 	background: #19c589;
 }
 
 /*Style for dropdown links*/
-li:hover ul a {
+nav li:hover ul a {
 	background: #f3f3f3;
 	color: #2f3036;
 	height: 40px;
@@ -40,31 +40,31 @@ li:hover ul a {
 }
 
 /*Hover state for dropdown links*/
-li:hover ul a:hover {
+nav li:hover ul a:hover {
 	background: #19c589;
 	color: #fff;
 }
 
 /*Hide dropdown links until they are needed*/
-li ul {
+nav li ul {
 	display: none;
 }
 
 /*Make dropdown links vertical*/
-li ul li {
+nav li ul li {
 	display: block;
 	float: none;
 }
 
 /*Prevent text wrapping*/
-li ul li a {
+nav li ul li a {
 	width: auto;
 	min-width: 100px;
 	padding: 0 20px;
 }
 
 /*Display the dropdown on hover*/
-ul li a:hover + .hidden, .hidden:hover {
+nav ul li a:hover + .hidden, .hidden:hover {
 	display: block;
 }
 
@@ -80,12 +80,12 @@ ul li a:hover + .hidden, .hidden:hover {
 }
 
 /*Hide checkbox*/
-input[type=checkbox]{
+nav input[type=checkbox]{
     display: none;
 }
 
 /*Show menu when invisible checkbox is checked*/
-input[type=checkbox]:checked ~ #menu{
+nav input[type=checkbox]:checked ~ #menu{
     display: block;
 }
 /*Responsive Styles*/
@@ -96,16 +96,16 @@ input[type=checkbox]:checked ~ #menu{
 	.show-menu {
 		display:block;
 	}
-	ul {
+	nav ul {
 		position: static;
 		display: none;
 	}
 	/*Create vertical spacing*/
-	li {
+	nav li {
 		margin-bottom: 1px;
 	}
 	/*Make all menu links full width*/
-	ul li, li a {
+	nav ul li, nav li a {
 		width: 100%;
 	}
 }
