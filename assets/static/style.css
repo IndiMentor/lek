@@ -23,3 +23,6 @@ body {
   padding: 40px 15px;
   text-align: center;
 }
+
+.row-odd { background-color: #0088bb;}
+.row-even {background-color: #00aaee;}
