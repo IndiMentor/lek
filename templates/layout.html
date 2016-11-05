@@ -8,23 +8,36 @@
 	<link rel="stylesheet" href="{{ 'static/style.css'|asseturl}}">
 </head>
 <body>
-    <div id="header">
-        <nav>
-            <label for="show-menu" class="show-menu">Menu</label>
-            <input type="checkbox" id="show-menu" role="button">
-            <ul id="menu">
-                <li><a href="{{ '/'|url }}">BUBBA</a></li>
-                <li><a href="{{ '/about'|url }}">About Us</a></li>
-                <li><a href="{{ '/models'|url }}">Models</a></li>
-                <li><a href="{{ '/contact'|url }}">Contact Us</a></li>
-                <li><a href="{{ '/employment'|url }}">Employment</a></li>
-            </ul>
-        </nav>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Project name</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="{{ '/'|url }}">BUBBA</a></li>
+                    <li><a href="{{ '/about'|url }}">About Us</a></li>
+                    <li><a href="{{ '/models'|url }}">Models</a></li>
+                    <li><a href="{{ '/contact'|url }}">Contact Us</a></li>
+                    <li><a href="{{ '/employment'|url }}">Employment</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </nav>
+
+<div class="container">
+    <div class="starter-template">
+        {% block content %}
+        {% endblock %}
     </div>
-<div id="main">
-    {% block content %}
-    {% endblock %}
-</div>
+</div><!-- /.container -->
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
