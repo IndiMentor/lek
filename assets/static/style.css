@@ -1,15 +1,5 @@
-.custom-restricted-width {
-	    /* To limit the menu width to the content of the menu: */
-	    display: inline-block;
-	    background: #0f0;
-}
-.body {
-    color: #000;
-}
-
 .custom-wrapper {
-    background-color: #000000;
-    color: #222222;
+    background-color: #ffd390;
     margin-bottom: 1em;
     -webkit-font-smoothing: antialiased;
     height: 2.1em;
@@ -83,4 +73,5 @@
     .custom-toggle {
         display: block;
     }
+
 }
