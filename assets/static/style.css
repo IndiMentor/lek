@@ -29,7 +29,9 @@ body {
 .modellist {
     text-align: center;
 }
-
+#root {
+    padding: 0;
+}
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
