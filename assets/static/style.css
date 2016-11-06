@@ -87,11 +87,11 @@ body {
 
 .modcard {
     background-color: #fff;
-    margin: 10px;
+
     min-height: 200px;
 }
 .col:not(:first-child),.col:not(:last-child) {
-  padding-right:7px;
-  padding-left:7px;
+  padding-right:10px;
+  padding-left:10px;
 }
 
