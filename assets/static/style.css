@@ -59,6 +59,7 @@ body {
   padding: 0 0 10px 25px;
   color: #fff;
   text-align: left;
+  display: none;
 }
 
 .carousel-indicators {
