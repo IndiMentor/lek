@@ -24,11 +24,7 @@ body {
   text-align: center;
 }
 
-.row-odd { background-color: #0088bb;}
-.row-even {background-color: #00aaee;}
-.modellist {
-    text-align: center;
-}
+
 #root {
     padding: 0;
 }
@@ -81,4 +77,15 @@ body {
   background-image: none;
 }
 
+/* Model Styling */
+.row-odd { background-color: #0088bb;}
+.row-even {background-color: #00aaee;}
 
+.modellist {
+    text-align: center;
+}
+
+.modcard {
+    background-color: #fff;
+    padding: 10px;
+}
