@@ -88,4 +88,5 @@ body {
 .modcard {
     background-color: #fff;
     margin: 10px;
+    min-height: 200px;
 }
