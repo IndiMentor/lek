@@ -1,5 +1,5 @@
 {% extends "layout.html" %}
-{% from "macros/models.html" import render_profile %}
+{% from "macros/models.html" import render_profile,render_table_field %}
 {% block title %}{{ this.title }}{% endblock %}
 {% block content %}
 <h2>Profile of {{ this.name }}</h2>
@@ -17,22 +17,10 @@
         </div>
         <div class="profile-info col-md-12">
             <h3>Information</h3>
-            <div class="profile-field col-md-5 col-md-offset-1">
-                <span class="profile-field-head">Tattoos</span>
-                <span class="profile-field-val">{{this.tattoos}}</span>
-            </div>
-            <div class="profile-field col-md-5 col-md-offset-1">
-                <span class="profile-field-head">Age</span>
-                <span class="profile-field-val">{{ this.age }}</span>
-            </div>
-            <div class="profile-field col-md-5 col-md-offset-1">
-                <span class="profile-field-head">Tattoos</span>
-                <span class="profile-field-val">{{this.tattoos}}</span>
-            </div>
-            <div class="profile-field col-md-5 col-md-offset-1">
-                <span class="profile-field-head">Age</span>
-                <span class="profile-field-val">{{ this.age }}</span>
-            </div>
+            {{  render_table_field("Age",this.age) }}
+            {{  render_table_field("Tattoos",this.tatoos) }}
+            {{  render_table_field("Other",this.tattoos) }}
+            {{  render_table_field("Age",this.age) }}
         </div>
     </div>
 
