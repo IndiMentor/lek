@@ -24,3 +24,12 @@
     </div>
     {% endif %}
 {% endmacro %}
+
+{% macro render_wide_table_field(head,val) %}
+    {% if val %}
+    <div class="profile-field col-md-11 col-md-offset-1">
+        <span class="profile-field-head">{{  head }}</span>
+        <span class="profile-field-val">{{val}}</span>
+    </div>
+    {% endif %}
+{% endmacro %}
