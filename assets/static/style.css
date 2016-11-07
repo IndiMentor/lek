@@ -145,6 +145,7 @@ body {
     min-height: 64px;
     border-radius: 4%;
     font-size: x-large;
+    vertical-align: middle;
 }
 .profile-field-head {
     color: #fff;
