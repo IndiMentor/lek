@@ -16,7 +16,7 @@ html {
 
 body {
     padding-top: 50px;
-    background-color: #000;
+    background-color: #555;
     color: #bbb;
 }
 .starter-template {
@@ -78,15 +78,15 @@ body {
 }
 
 /* Model Styling */
-.row-odd { background-color: #111;}
-.row-even {background-color: #222;}
+.row-odd { background-color: #333;}
+.row-even {background-color: #555;}
 
 .modellist {
     text-align: center;
 }
 
 .modcard {
-    background-color:deeppink;
+    background-color:hotpink;
     margin:10px;
     padding:10px;
     min-height: 200px;
