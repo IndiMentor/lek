@@ -145,18 +145,19 @@ body {
     min-height: 64px;
     border-radius: 4%;
     font-size: x-large;
-   vertical-align: middle;
+
     display: inline-block;
 }
 .profile-field-head {
     color: #fff;
     padding: 1%;
-
+ vertical-align: middle;
  display: inline-block;
 }
 
 .profile-field-val {
     color: #0099dd;
     padding: 1%;
+     vertical-align: middle;
     display: inline-block;
 }
