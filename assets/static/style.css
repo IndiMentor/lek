@@ -101,6 +101,10 @@ body {
     color: blue;
 }
 
+.modcard a:hover {
+    text-decoration: none;
+}
+
 .modcard .tag {
     color: green;
 }
