@@ -4,6 +4,9 @@
     <div>
         <h2>{{ this.modelname }}</h2>
     </div>
+    {% for child in this.pagination.items %}
+        {{ child.name,child.title,child.tag_line }}
+    {%  endfor %}
 {#    <div class="row row-odd">#}
         <div class="modellist col-xs-12 col-sm-6  col-md-3">
             <div class="modcard">
