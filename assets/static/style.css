@@ -141,7 +141,8 @@ body {
 .profile-field {
     background: #000;
     color: #777;
-    margin: 1%;
+    margin: 5%;
+    min-height: 200%;
 }
 .profile-field-head {
     color: #fff;
