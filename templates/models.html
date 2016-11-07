@@ -5,11 +5,11 @@
         <h2>{{ this.modelname }}</h2>
     </div>
     <div>
-    <script type="text/css">
+    <style>
     .modcard .availabletext {
         background-image: url("{{ '/static/img/available.png' | asseturl }}");
     }
-    </script>
+    </style>
     {% for child in this.children %}
         <div class="modellist col-xs-12 col-sm-6  col-md-3">
             <div class="modcard">
