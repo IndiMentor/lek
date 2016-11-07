@@ -146,6 +146,7 @@ body {
     border-radius: 4%;
     font-size: x-large;
    vertical-align: middle;
+    display: inline-block;
 }
 .profile-field-head {
     color: #fff;
