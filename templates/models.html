@@ -8,12 +8,15 @@
     {% for child in this.children %}
         <div class="modellist col-xs-12 col-sm-6  col-md-3">
             <div class="modcard">
-                <img class='img-responsive' src="http://lorempixel.com/600/600/people/1">
+                <a href="{{ child|url }}">
+                    <img class='img-responsive' src="http://lorempixel.com/600/600/people/1">
+                    {% if child.available %}
+                        <span class="availabletext">*</span>
+                    {%  endif %}
+                </a>
                 <div class="name">{{ child.name }}</div>
                 <div class="tag">{{ child.tag_line }}</div>
-                {% if child.available %}
-                    <div class="availabletext">*</div>
-                {%  endif %}
+
             </div>
         </div>
     {%  endfor %}
