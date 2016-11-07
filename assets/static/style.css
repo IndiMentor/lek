@@ -78,8 +78,8 @@ body {
 }
 
 /* Model Styling */
-.row-odd { background-color: #0088bb;}
-.row-even {background-color: #00aaee;}
+.row-odd { background-color: #000;}
+.row-even {background-color: #000;}
 
 .modellist {
     text-align: center;
