@@ -141,23 +141,19 @@ body {
 .profile-field {
     background: #000;
     color: #777;
-    margin: 2%;
     min-height: 64px;
     border-radius: 4%;
     font-size: x-large;
-
     display: table;
 }
 .profile-field-head {
     color: #fff;
-    padding: 1%;
     vertical-align: middle;
     display: table-cell;
 }
 
 .profile-field-val {
     color: #0099dd;
-    padding: 1%;
-     vertical-align: middle;
+    vertical-align: middle;
     display: table-cell;
 }
