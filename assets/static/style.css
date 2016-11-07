@@ -148,13 +148,13 @@ body {
     margin-bottom: 5%;
 }
 .profile-field-head {
-    color: #fff;
+    /*color: #fff;*/
     vertical-align: middle;
     display: table-cell;
 }
 
 .profile-field-val {
-    color: #0099dd;
+    /*color: #0099dd;*/
     vertical-align: middle;
     display: table-cell;
 }
