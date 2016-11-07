@@ -107,14 +107,14 @@ body {
 
 .modcard .availabletext {
     background-image: url("http://lorempixel.com/100/25/");
-    width:100px;
-    height:100px;
+    width:240px;
+    height:240px;
     margin: 2px;
     background-repeat: no-repeat;
     background-position: center bottom;
     display: block;
     z-index: 9999;
-    /*position: absolute;*/
+    position: absolute;
 }
 
 
