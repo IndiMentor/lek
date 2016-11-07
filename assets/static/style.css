@@ -146,7 +146,7 @@ body {
 .profile-field-head {
     color: #fff;
     padding: 1%;
-    min-height: 200%;
+    min-height: 32px;
 }
 
 .profile-field-val {
