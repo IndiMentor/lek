@@ -4,9 +4,16 @@
     <div>
         <h2>{{ this.modelname }}</h2>
     </div>
+    <div>
     {% for child in this.children %}
-        {{ child.name,child.title,child.tag_line }}
+        <div class="modellist col-xs-12 col-sm-6  col-md-3">
+            <div class="modcard">
+                <img class='img-responsive' src="http://lorempixel.com/600/600/people/1">
+                {{ child.name }}
+            </div>
+        </div>
     {%  endfor %}
+    </div>
 {#    <div class="row row-odd">#}
         <div class="modellist col-xs-12 col-sm-6  col-md-3">
             <div class="modcard">
