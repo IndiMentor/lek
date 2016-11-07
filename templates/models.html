@@ -15,7 +15,7 @@
                     <img class='img-responsive' src="http://lorempixel.com/600/600/people/1">
 
                 </a>
-                <div class="name">{{ child.name }}</div>
+                <a href="{{ child|url }}"><div class="name">{{ child.name }}</div></a>
                 <div class="tag">{{ child.tag_line }}</div>
 
             </div>
