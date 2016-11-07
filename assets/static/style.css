@@ -151,8 +151,8 @@ body {
 .profile-field-head {
     color: #fff;
     padding: 1%;
- vertical-align: middle;
- display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
 }
 
 .profile-field-val {
