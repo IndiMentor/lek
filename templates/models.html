@@ -11,6 +11,9 @@
                 <img class='img-responsive' src="http://lorempixel.com/600/600/people/1">
                 {{ child.name }}
                 {{ child.tag_line }}
+                {% if child.available %}
+                    *
+                {%  endif %}
             </div>
         </div>
     {%  endfor %}
