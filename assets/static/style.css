@@ -139,8 +139,8 @@ body {
 }
 
 .profile-field {
-    background: #000;
-    color: #777;
+    background: #777;
+    color: #fff;
     min-height: 64px;
     border-radius: 4%;
     font-size: x-large;
