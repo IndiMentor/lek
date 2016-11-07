@@ -17,8 +17,10 @@
 {% macro render_profile(child) %}
 {% endmacro %}
 {% macro render_table_field(head,val) %}
+    {% if val %}
     <div class="profile-field col-md-5 col-md-offset-1">
         <span class="profile-field-head">{{  head }}</span>
         <span class="profile-field-val">{{val}}</span>
     </div>
+    {% endif %}
 {% endmacro %}
