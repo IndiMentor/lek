@@ -142,11 +142,11 @@ body {
     background: #000;
     color: #777;
     margin: 2%;
-    min-height: 200%;
 }
 .profile-field-head {
     color: #fff;
     padding: 1%;
+    min-height: 200%;
 }
 
 .profile-field-val {
