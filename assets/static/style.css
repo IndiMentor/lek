@@ -146,18 +146,18 @@ body {
     border-radius: 4%;
     font-size: x-large;
 
-    display: inline-block;
+    display: table;
 }
 .profile-field-head {
     color: #fff;
     padding: 1%;
  vertical-align: middle;
- display: inline-block;
+ display: table-cell;
 }
 
 .profile-field-val {
     color: #0099dd;
     padding: 1%;
      vertical-align: middle;
-    display: inline-block;
+    display: table-cell;
 }
