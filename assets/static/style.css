@@ -145,6 +145,7 @@ body {
     border-radius: 4%;
     font-size: x-large;
     display: table;
+    padding-bottom: 5%;
 }
 .profile-field-head {
     color: #fff;
