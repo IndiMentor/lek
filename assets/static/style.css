@@ -97,5 +97,17 @@ body {
     border-radius: 5%;
 }
 
+.modcard .name {
+    color: blue;
+}
+
+.modcard .tag {
+    color: green;
+}
+
+.modcard .availabletext {
+    color: red;
+}
+
 
 
