@@ -134,7 +134,7 @@ body {
 }
 
 .profile-info {
-    background: #000;
+    background: blue;
     margin: 5px;
     padding: 10px;
 }
@@ -142,4 +142,11 @@ body {
 .profile-field {
     background: #000;
     color: #777;
+}
+.profile-field-head {
+    color: #fff;
+}
+
+.profile-field-val {
+    color: #0099dd;
 }
