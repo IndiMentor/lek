@@ -128,13 +128,13 @@ body {
    MODEL PROFILE STYLING
    */
 .profile-card {
-    background: #000;
+    background: #999;
     color: #000;
     padding: 10px;
 }
 
 .profile-info {
-    background: #999;
+    background: #000;
     padding: 10px;
 }
 
