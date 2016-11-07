@@ -77,7 +77,10 @@ body {
   background-image: none;
 }
 
-/* Model Styling */
+/* ==================================
+ MODEL STYLING
+ */
+
 .row-odd { background-color: #333;}
 .row-even {background-color: #555;}
 
@@ -121,4 +124,20 @@ body {
 }
 
 
+/* =========================================
+   MODEL PROFILE STYLING
+   */
+.profile-info {
+    background: #000;
+    margin: 5px;
+    padding: 10px;
+}
+.profile-card {
+    background: #bbb;
+    margin: 10px;
+}
 
+.profile-field {
+    background: #000;
+    color: #777;
+}
