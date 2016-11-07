@@ -107,6 +107,8 @@ body {
 
 .modcard .availabletext {
     background-image: url("http://lorempixel.com/100/25/");
+    width:100px;
+    height:100px;
 }
 
 
