@@ -127,15 +127,16 @@ body {
 /* =========================================
    MODEL PROFILE STYLING
    */
+.profile-card {
+    background: #bbb;
+    color: #000;
+    padding: 10px;
+}
+
 .profile-info {
     background: #000;
     margin: 5px;
     padding: 10px;
-}
-.profile-card {
-    background: #bbb;
-    color: #000;
-    margin: 10px;
 }
 
 .profile-field {
