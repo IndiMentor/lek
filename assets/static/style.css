@@ -145,8 +145,10 @@ body {
 }
 .profile-field-head {
     color: #fff;
+    padding: 1%;
 }
 
 .profile-field-val {
     color: #0099dd;
+    padding: 1%;
 }
