@@ -145,27 +145,21 @@ body {
     border-radius: 4%;
     font-size: x-large;
     /*display: table;*/
-    /*margin-bottom: 5%;*/
+    margin-bottom: 5%;
     text-align: center;
     width:40%;
     display: inline-block;
 }
 .profile-field-head {
-    /*color: #fff;*/
+    color: #fff;
     /*vertical-align: middle;*/
     /*display: table-cell;*/
-    width:40%;
+    width:50%;
 }
 
 .profile-field-val {
-    /*color: #0099dd;*/
+    color: #0099dd;
     /*vertical-align: middle;*/
     /*display: table-cell;*/
-    width:40%;
-}
-
-.pc1 {
-    max-width: 40%;
-    height:100px;
-    color:green;
+    width:50%;
 }
