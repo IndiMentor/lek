@@ -147,6 +147,7 @@ body {
     /*display: table;*/
     margin-bottom: 5px;
     /*text-align: center;*/
+    box-sizing: border-box;
     width:50%;
     display: inline-block;
 }
