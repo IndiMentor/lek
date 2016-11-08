@@ -147,7 +147,7 @@ body {
     font-size: x-large;
     margin-bottom: 5px;
     width:45%;
-
+    display: inline-block;
 }
 .profile-field-head {
     color: #fff;
