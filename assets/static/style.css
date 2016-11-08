@@ -164,6 +164,7 @@ body {
 }
 
 .pc1 {
+    max-width: 40%;
     height:100px;
     color:green;
 }
