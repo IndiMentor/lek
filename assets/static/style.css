@@ -144,21 +144,21 @@ body {
     min-height: 64px;
     border-radius: 4%;
     font-size: x-large;
-    display: table;
+    /*display: table;*/
     margin-bottom: 5%;
     text-align: center;
     width:40%;
 }
 .profile-field-head {
     /*color: #fff;*/
-    vertical-align: middle;
-    display: table-cell;
+    /*vertical-align: middle;*/
+    /*display: table-cell;*/
     width:40%;
 }
 
 .profile-field-val {
     /*color: #0099dd;*/
-    vertical-align: middle;
-    display: table-cell;
+    /*vertical-align: middle;*/
+    /*display: table-cell;*/
     width:40%;
 }
