@@ -1,13 +1,13 @@
-{#{% extends "layout.html" %}#}
+{% extends "layout.html" %}
 {% from "macros/models.html" import render_wide_table_field,render_table_field %}
 {% block title %}{{ this.title }}{% endblock %}
 {% block content %}
-    <style>
-    .pc1 {
-        max-width: 40%;
-        display: inline-block;
-    }
-    </style>
+{#    <style>#}
+{#    .pc1 {#}
+{#        max-width: 40%;#}
+{#        display: inline-block;#}
+{#    }#}
+{#    </style>#}
 <h2>Profile of {{ this.name }}</h2>
 
     <div class="container">
