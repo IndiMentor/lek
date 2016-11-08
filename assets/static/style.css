@@ -150,13 +150,13 @@ body {
     /*display: inline-block;*/
 }
 .profile-field-head {
-    background: blue;
+    /*background: blue;*/
     color: #fff;
     /*width:50%;*/
 }
 
 .profile-field-val {
-    background: blue;
+    /*background: blue;*/
     color: #0099dd;
     /*width:50%;*/
 }
