@@ -164,3 +164,7 @@ body {
 .contform {
     margin: 0 auto;
 }
+
+.cognito {text-align:center;}
+.cognito #c-forms-form{display:inline-block;}
+.cognito .c-field {text-align:left;min-width:300px;}
