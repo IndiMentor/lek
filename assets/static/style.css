@@ -134,7 +134,7 @@ body {
 
 }
 .bs {
-    box-sizing: border-box;
+    box-sizing: padding-box;
 }
 .profile-info {
     /*background: #000;*/
