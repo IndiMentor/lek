@@ -128,19 +128,19 @@ body {
    MODEL PROFILE STYLING
    */
 .profile-card {
-    /*background: #999;*/
+    background: red;
     color: #000;
     /*padding: 10px;*/
 }
 .profile-info {
-    background: #fff;
+    background: green;
     /*padding: 10px;*/
     /*display: inline-block;*/
     /*width: 100%;*/
 }
 
 .profile-field {
-    background: #333;
+    background: blue;
     color: #bbb;
     min-height: 64px;
     border-radius: 4%;
