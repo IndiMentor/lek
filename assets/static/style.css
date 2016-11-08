@@ -147,18 +147,18 @@ body {
     display: table;
     margin-bottom: 5%;
     text-align: center;
-    width:50%;
+    width:40%;
 }
 .profile-field-head {
     /*color: #fff;*/
     vertical-align: middle;
     display: table-cell;
-    width:48%;
+    width:40%;
 }
 
 .profile-field-val {
     /*color: #0099dd;*/
     vertical-align: middle;
     display: table-cell;
-    width:48%;
+    width:40%;
 }
