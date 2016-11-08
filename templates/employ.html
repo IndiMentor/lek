@@ -1,0 +1,8 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block content %}
+<div class="cognito">
+<script src="https://services.cognitoforms.com/s/XSy68JmccUWTbQVjq2Gvow"></script>
+<script>Cognito.load("forms", { id: "1" });</script>
+</div>
+{%  endblock %}
