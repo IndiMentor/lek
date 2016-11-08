@@ -6,65 +6,65 @@
 
     <div class="container">
     <div class="row">
-    <div class="col-sm-6">
-        picyure stuff
-    </div>
-    <div class="col-sm-6 profile-card">
-        <h4>Bio of {{ this.name }}</h4>
-        <div class="profile-desc">
-           <p> <strong>{{ this.description }} </strong></p>
+        <div class="col-sm-6">
+            <img class="img-responsive img-rounded" src="http://lorempixel.com/600/600/">
+        </div>
+        <div class="col-sm-6 profile-card">
+            <h4>Bio of {{ this.name }}</h4>
+            <div class="profile-desc">
+               <p> <strong>{{ this.description }} </strong></p>
 
-        </div>
-        <div class="profile-info col-md-12">
-            <h3>Information</h3>
-            {{  render_table_field("Age",this.age) }}
-            {{  render_table_field("Tattoos",this.tatooos) }}
-            {{  render_table_field("Other",this.tattoos) }}
-            {{  render_table_field("Age",this.age) }}
-            {{  render_table_field("Bust",this.bust) }}
-            {{  render_table_field("Vitals",this.vitals) }}
-            {{  render_table_field("Height",this.height) }}
-            {{  render_table_field("Weight",this.weight) }}
-            {{  render_table_field("Hair Color",this.hair_color) }}
-            {{  render_table_field("Eyes",this.eyes) }}
-            {{  render_table_field("Implants",this.implants) }}
-            {{  render_table_field("Piercings",this.piercings) }}
-            {{  render_table_field("Language(s)",this.language) }}
-            {{  render_table_field("Nationality",this.nationality) }}
-            {{  render_table_field("Ethnicity",this.ethnicity) }}
-            {{  render_table_field("GFE ?",this.gfe) }}
-            {{  render_table_field("PSE ?",this.pse) }}
-        </div>
-        <div class="profile-rates">
-            <h3>Rates</h3>
-            {{ render_wide_table_field("Service","Rate") }}
-            {{ render_wide_table_field("1 Hour","300") }}
-            {{ render_wide_table_field("2 Hours","555") }}
-            {{ render_wide_table_field("4 Hours","900") }}
-            {{ render_wide_table_field("Overnite","900") }}
+            </div>
+            <div class="profile-info col-md-12">
+                <h3>Information</h3>
+                {{  render_table_field("Age",this.age) }}
+                {{  render_table_field("Tattoos",this.tatooos) }}
+                {{  render_table_field("Other",this.tattoos) }}
+                {{  render_table_field("Age",this.age) }}
+                {{  render_table_field("Bust",this.bust) }}
+                {{  render_table_field("Vitals",this.vitals) }}
+                {{  render_table_field("Height",this.height) }}
+                {{  render_table_field("Weight",this.weight) }}
+                {{  render_table_field("Hair Color",this.hair_color) }}
+                {{  render_table_field("Eyes",this.eyes) }}
+                {{  render_table_field("Implants",this.implants) }}
+                {{  render_table_field("Piercings",this.piercings) }}
+                {{  render_table_field("Language(s)",this.language) }}
+                {{  render_table_field("Nationality",this.nationality) }}
+                {{  render_table_field("Ethnicity",this.ethnicity) }}
+                {{  render_table_field("GFE ?",this.gfe) }}
+                {{  render_table_field("PSE ?",this.pse) }}
+            </div>
+            <div class="profile-rates">
+                <h3>Rates</h3>
+                {{ render_wide_table_field("Service","Rate") }}
+                {{ render_wide_table_field("1 Hour","300") }}
+                {{ render_wide_table_field("2 Hours","555") }}
+                {{ render_wide_table_field("4 Hours","900") }}
+                {{ render_wide_table_field("Overnite","900") }}
 
-            <table>
-                <thead>
-                <tr>
-                    <td>Service</td>
-                    <td>Rate</td>
-                </tr>
-                </thead>
-                <tr>
-                    <td>1 Hour</td>
-                    <td>300</td>
-                </tr>
-                <tr>
-                    <td>2 Hour</td>
-                    <td>600</td>
-                </tr>
-                <tr>
-                    <td>4 Hour</td>
-                    <td>1200</td>
-                </tr>
-            </table>
+                <table>
+                    <thead>
+                    <tr>
+                        <td>Service</td>
+                        <td>Rate</td>
+                    </tr>
+                    </thead>
+                    <tr>
+                        <td>1 Hour</td>
+                        <td>300</td>
+                    </tr>
+                    <tr>
+                        <td>2 Hour</td>
+                        <td>600</td>
+                    </tr>
+                    <tr>
+                        <td>4 Hour</td>
+                        <td>1200</td>
+                    </tr>
+                </table>
+            </div>
         </div>
-    </div>
 
     </div>
 </div>
